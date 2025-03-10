@@ -3,7 +3,7 @@ import Button from '@/components/UI/Button.vue';
 </script>
 
 <template>
-  <section class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0">
+  <section data-aos="zoom-in" class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0">
     <header
       class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#00c6cc] via-[#785ae4] to-secondary opacity-30 dark:opacity-20 blur-[100px] left-10 top-0 hidden md:block"
     ></header>
@@ -38,9 +38,7 @@ import Button from '@/components/UI/Button.vue';
         class="container flex justify-center lg:justify-end mt-20 lg:mt-0 items-center flex-wrap"
       >
         <figure
-          class="card relative m-[30px] md:w-[420px] md:h-[420px] md:before:w-[450px] md:before:h-[450px] w-[280px] h-[350px] before:w-[300px] before:h-[300px] 
-            before:border-[25px] before:border-primary before:shadow-[7px_7px_21px_primary,_-7px_-7px_21px_primary]
-            dark:before:border-secondary dark:before:shadow-[7px_7px_21px_secondary,_-7px_-7px_21px_secondary]"
+          class="card relative m-[30px] md:w-[420px] md:h-[420px] md:before:w-[450px] md:before:h-[450px] w-[280px] h-[350px] before:w-[300px] before:h-[300px] before:border-[25px] before:border-primary before:shadow-[7px_7px_21px_primary,_-7px_-7px_21px_primary] dark:before:border-secondary dark:before:shadow-[7px_7px_21px_secondary,_-7px_-7px_21px_secondary]"
         >
           <div
             class="relative w-full h-full bg-cover transform translate-x-[10px] translate-y-[10px]"
