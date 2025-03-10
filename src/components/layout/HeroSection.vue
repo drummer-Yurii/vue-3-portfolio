@@ -16,6 +16,14 @@
             Steven
           </span>
         </h1>
+        <p class="text-lg max-w-xl mx-auto lg:mx-0 font-semibold">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a illo necessitatibus
+          hic animi eaque ratione nostrum modi recusandae, cum libero autem eum, inventore magnam
+          deserunt, fugiat repellat? Consequuntur, hic.
+        </p>
+        <div class="mt-6 flex justify-center lg:justify-start">
+            <button>Here me</button>
+        </div>
       </header>
     </main>
   </section>
