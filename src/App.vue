@@ -9,6 +9,7 @@ const Skills = defineAsyncComponent(() => import('@/components/layout/Skills.vue
 const Whyme = defineAsyncComponent(() => import('@/components/layout/Whyme.vue'));
 const Projects = defineAsyncComponent(() => import('@/components/layout/Projects.vue'));
 const Contact = defineAsyncComponent(() => import('@/components/layout/Contact.vue'));
+const Footer = defineAsyncComponent(() => import('@/components/layout/Footer.vue'));
 </script>
 
 <template>
@@ -21,5 +22,6 @@ const Contact = defineAsyncComponent(() => import('@/components/layout/Contact.v
     <Whyme />
     <Projects />
     <Contact />
+    <Footer />
   </div>
 </template>
