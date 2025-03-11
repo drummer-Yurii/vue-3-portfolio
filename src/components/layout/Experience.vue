@@ -1,21 +1,21 @@
 <script setup>
 import { ref } from 'vue';
 
-const Education = ref([
-  { duration: '03/2008-07/2011', School: 'School 1', degree: 'Software Engineer' },
-  { duration: '03/2008-07/2011', School: 'School 2', degree: 'Software Engineer' },
+const Experience = ref([
+  { duration: '03/2008-07/2011', Title: 'Frontend Developer', company: 'Spotify' },
+  { duration: '03/2008-07/2011', Title: 'Frontend Developer', company: 'Spotify' },
 ]);
 </script>
 
 <template>
   <section class="p-16">
     <header class="text-center">
-      <h3 class="text-4xl font-bold text-primary dark:text-white">Education</h3>
+      <h3 class="text-4xl font-bold text-primary dark:text-white">Experience</h3>
     </header>
     <ul class="mt-10 space-y-8 y-8">
       <li
         class="w-full rounded-xl shadow-lg border bg-gradient-to-t to-[#acac39] from-[#1f1e1c99]"
-        v-for="(item, index) in Education"
+        v-for="(item, index) in Experience"
         :key="index"
       >
         <article
@@ -23,17 +23,17 @@ const Education = ref([
         >
           <figure class="w-full lg:w-1/4 flex justify-center lg:justify-start mb-4 lg:mb-0">
             <Icon
-              icon="hugeicons:university"
+              icon="material-symbols-light:work"
               class="text-4xl md:text-6xl lg:text-7xl text-secondary"
             />
           </figure>
           <section class="w-full lg:w-3/4 lg:pl-4 text-center lg:text-left">
             <header>
               <h3 class="text-xl md:text-2xl font-semibold uppercase text-secondary">
-                {{ item.School }}
+                {{ item.Title }}
               </h3>
             </header>
-            <p class="text-sm md:text-base text-white">{{ item.degree }}</p>
+            <p class="text-sm md:text-base text-white">{{ item.company }}</p>
             <p class="text-sm md:text-base text-white">{{ item.duration }}</p>
           </section>
         </article>
